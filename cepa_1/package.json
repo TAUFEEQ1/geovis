@@ -1,0 +1,64 @@
+{
+    "name": "cepa_1",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+        "async-waterfall": "^0.1.5",
+        "axios": "^0.18.1",
+        "core-js": "^2.6.5",
+        "date-fns": "^1.30.1",
+        "leaflet": "^1.5.1",
+        "materialize-css": "^1.0.0",
+        "node-sass": "^4.12.0",
+        "sass-loader": "^7.1.0",
+        "stylus": "^0.54.5",
+        "stylus-loader": "^3.0.2",
+        "vue": "^2.6.10",
+        "vue2-daterange-picker": "^0.3.0",
+        "vue2-leaflet": "^2.1.0",
+        "vue2-leaflet-markercluster": "^3.0.0",
+        "vuetify": "^1.5.16",
+        "vuetify-daterange-picker": "^3.1.6"
+    },
+    "devDependencies": {
+        "@fortawesome/fontawesome-free": "^5.9.0",
+        "@fortawesome/fontawesome-svg-core": "^1.2.19",
+        "@fortawesome/free-solid-svg-icons": "^5.9.0",
+        "@fortawesome/vue-fontawesome": "^0.1.6",
+        "@vue/cli-plugin-babel": "^3.8.0",
+        "@vue/cli-plugin-eslint": "^3.8.0",
+        "@vue/cli-service": "^3.8.0",
+        "babel-eslint": "^10.0.1",
+        "eslint": "^5.16.0",
+        "eslint-plugin-vue": "^5.0.0",
+        "vue-template-compiler": "^2.6.10"
+    },
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "node": true
+        },
+        "extends": [
+            "plugin:vue/essential",
+            "eslint:recommended"
+        ],
+        "rules": {},
+        "parserOptions": {
+            "parser": "babel-eslint"
+        }
+    },
+    "postcss": {
+        "plugins": {
+            "autoprefixer": {}
+        }
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions"
+    ]
+}
